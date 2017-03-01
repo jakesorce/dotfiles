@@ -4,7 +4,7 @@ eval "$(rbenv init -)"
 
 alias code='open -a "Visual Studio Code"'
 alias be='bundle exec'
-alias bake 'be rake'
+alias bake='be rake'
 alias dcms='bake db:drop db:create db:migrate db:seed'
 alias mig='bake db:migrate' 
 
