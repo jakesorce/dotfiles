@@ -7,6 +7,7 @@ alias be='bundle exec'
 alias bake='be rake'
 alias dcms='bake db:drop db:create db:migrate db:seed'
 alias mig='bake db:migrate' 
+alias mux='tmuxinator'
 
 # Git branch in prompt.
 parse_git_branch() {
